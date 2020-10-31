@@ -34,6 +34,9 @@ dependencies {
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
     compile('javax.servlet:jstl:1.2')
 
+    // 머스테치 연동
+    compile('org.springframework.boot:spring-boot-starter-mustache')
+
     // devtool
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
 
