@@ -13,6 +13,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
+        System.setProperty("spring.devtools.restart.enable", "false");
+        System.setProperty("spring.devtools.livereload.enable", "true");
+
         //내장 WAS 실행
         SpringApplication.run(Application.class, args);
     }
